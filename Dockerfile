@@ -1,10 +1,6 @@
 FROM debian
 
-# ENV VERSION=v0.10.45 CFLAGS="-D__USE_MISC" NPM_VERSION=2
-# ENV VERSION=v0.12.14 NPM_VERSION=2
-# ENV VERSION=v4.4.6 NPM_VERSION=2
 ENV VERSION=v5.12.0 NPM_VERSION=3
-# ENV VERSION=v6.2.2 NPM_VERSION=3
 
 RUN apt-get update
 RUN apt-get -y install curl build-essential python paxctl && \
