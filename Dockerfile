@@ -1,6 +1,6 @@
 FROM debian
 
-ENV VERSION=v6.11.0 NPM_VERSION=3
+ENV VERSION=v6.17.1 NPM_VERSION=3
 
 RUN apt-get update
 RUN apt-get -y install curl build-essential python paxctl && \
